@@ -1,0 +1,157 @@
+h1 {
+  font-size: 5rem;
+  line-height: 5.9375rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.8125rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.workExperience_context {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.enSubTitle {
+  line-height: 1.8125rem;
+  font-size: 1.5rem;
+  color: #A00404;
+  margin-left: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto 4.5rem;
+}
+
+.divider {
+  border-bottom: black 0.0625rem solid;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile .divider:first-child {
+  margin-bottom: 0;
+  border-bottom: 0.125rem solid black;
+}
+.profile .name {
+  padding: 2.5rem 0 1.5rem 0;
+}
+.profile h2 {
+  line-height: 3rem;
+}
+.profile img {
+  margin: 3rem 0;
+  max-width: 20.25rem;
+}
+.profile ul li {
+  margin-bottom: 1.5rem;
+}
+.profile ul li:last-child {
+  margin: 0;
+}
+
+.education ul li {
+  margin-bottom: 1.5rem;
+}
+.education ul li:last-child {
+  margin-bottom: 0;
+}
+
+.skill_bg {
+  background-color: #415165;
+}
+
+.skill {
+  max-width: 62.25rem;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  padding: 1.5rem 0;
+}
+.skill .divider {
+  border-color: white;
+}
+.skill .enSubTitle {
+  color: white;
+}
+.skill .skill_items {
+  display: inline-block;
+  text-align: left;
+  border-left: 0.0625rem solid #96A9C4;
+  padding-left: 1.5rem;
+  margin: 1.53125rem 0 1.71875rem 0;
+}
+.skill .skill_items li {
+  margin-bottom: 1.25rem;
+}
+.skill .skill_items li:last-child {
+  margin-bottom: 0;
+}
+
+.workExperience ul {
+  border-left: #96A9C4 0.0625rem solid;
+  padding-left: 1.5rem;
+  margin-left: 1.5rem;
+}
+.workExperience ul li {
+  margin-bottom: 2rem;
+}
+.workExperience ul li:last-child {
+  margin-bottom: 0;
+}
+.workExperience ul li img {
+  margin: 0.5rem 0;
+}
+.workExperience ul li .hexImg {
+  margin-bottom: 0.53125rem;
+}
+
+footer {
+  background-color: #415165;
+  color: white;
+}
+footer .container {
+  margin-bottom: 0;
+}
+footer .contact {
+  text-align: center;
+}
+footer .contact .divider {
+  border-color: white;
+  margin-bottom: 2rem;
+}
+footer .contact h2 {
+  line-height: 2.8125rem;
+  padding-top: 1.5rem;
+}
+footer .contact h2 .enSubTitle {
+  color: white;
+}
+footer .contact .contactItem {
+  margin-bottom: 1rem;
+}
+footer .contact .contactItem:last-child {
+  margin-bottom: 1.25rem;
+}
+footer .contact .contactImg {
+  display: inline-block;
+  padding-bottom: 3rem;
+}
+footer .contact .contactImg:nth-child(1) img, footer .contact .contactImg:nth-child(2) img {
+  margin-right: 3rem;
+}
+
+/*# sourceMappingURL=main.css.map */

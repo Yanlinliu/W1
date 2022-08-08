@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S1個人履歷</title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+</head>
+<body>
+
+<!--
+
+- 滿版 或 容器
+
+容器
+- 姓名與照片
+- 個人資料
+- 學歷
+- 技能 > 另一個技能的 container
+- 工作經驗
+
+footer 滿版 > 滿版內包一個 Container
+
+字體
+h1 80 95 -> 預設
+一般內文 24 36 -> 預設
+英文標題 24 29
+小標題 32 45 (個人資料 48)
+工作經驗內文 20 30
+(技能、聯絡方式 -- 有背景色的標題) 32 45
+-->
+
+<div class="container profile">
+    <h1 class="name divider">Joanne <br>Chen</h1>
+    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week1/photo.png?raw=true" alt="履歷照片">
+
+    <h2 class="divider">個人資料<span class="enSubTitle">PROFILE</span></h2>
+    <ul>
+        <li><p>陳久安 Joanne Chen <br>1997- <br>應屆畢業生／接案設計師／UI 設計實習生</p></li>
+        <li><p>UI 設計修行中／立志當斜槓青年 <br>獨立接案，內容涵蓋： <br>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p></li>
+    </ul>
+</div>
+
+
+<div class="container education">
+    <h2 class="divider">學歷<span class="enSubTitle">EDUCATION</span></h2>
+    <ul>
+        <li><p>國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</p></li>
+        <li><p>國立六腳高級中學 美術班 | 2013－2016</p></li>
+    </ul>
+</div>
+
+<div class="container skill_bg">
+    <div class="skill">
+        <h2 class="divider">技能<span class="enSubTitle">SKILLS</span></h2>
+        <ul class="skill_items">
+            <li><p>Adobe Photoshop</p></li>
+            <li><p>Adobe Illustrator</p></li>
+            <li><p>Adobe XD</p></li>
+            <li><p>Adobe Indesign</p></li>
+            <li><p>C4D</p></li>
+            <li><p>Adobe Premiere</p></li>
+            <li><p>語言：中文、英文</p></li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="container workExperience">
+    <h2 class="divider">工作經驗<span class="enSubTitle">WORK EXPERIENCE</span></h2>
+    <ul>
+        <li>
+            <h3>六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
+            <img class="hexImg" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/Group%201.svg" alt="hex">
+            <p class="workExperience_context">在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS, Adobe XD，設計給學員使用的名片設計教材，並參與六角週年活動，設計各式周邊商品及活動網路宣傳圖。後期進入 UI 設計範疇，設計六角共筆部落格 - W3HexSchool、六角發案服務網介面設計、供給學員的教 案- RWD官方網站設計，並設計各式網頁活動宣傳圖。</p>
+        </li>
+        <li>
+            <h3>獨立接案 Hao Jun 酒標設計 | 2019</h3>
+        </li>
+        <li>
+            <h3>獨立接案 Exulans 酒標設計 | 2019</h3>
+        </li>
+        <li>
+            <h3>獨立接案 桃園平鎮市民健走活動提案 | 2019</h3>
+        </li>
+        <li>
+            <h3>Simtree 興趣咖啡 工讀生 | 2018－2019</h3>
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week1/simtree.png?raw=true" alt="simtree">
+            <p>擔任外場及吧台服務生，學習咖啡相關知識。</p>
+        </li>
+    </ul>
+</div>
+
+<footer>
+    <div class="container contact">
+        <h2 class="divider">聯絡方式<span class="enSubTitle">contact method</span></h2>
+        <ul class="contactItem">
+            <li><p>Mail：xxxd@hexschool.com</p></li>
+            <li><p>Phone：0910123456</p></li>
+            <li><p>Kaohsiung, Taiwan</p></li>
+            <li><p>作品連結：https://www.behance.net/xxxdddddd</p></li>
+        </ul>
+        <ul>
+            <li class="contactImg"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/facebook.svg" alt="facebook"></li>
+            <li class="contactImg"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/instagram-alt.svg" alt="ig"></li>
+            <li class="contactImg"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/line.svg" alt="line"></li>
+        </ul>
+    </div>
+</footer>
+<!--<div class="container">-->
+<!--    <h1>Joanne<br>Chen</h1>-->
+<!--    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week1/photo.png?raw=true" alt="履歷照片">-->
+
+<!--    <h2>個人資料<span>PROFILE</span></h2>-->
+<!--    <ul>-->
+<!--        <li></li>-->
+<!--        <li></li>-->
+<!--        <li></li>-->
+<!--        <li></li>-->
+<!--        <li></li>-->
+<!--        <li></li>-->
+<!--        <li></li>-->
+<!--    </ul>-->
+
+<!--    <h2>學歷<span>EDUCATION</span></h2>-->
+
+<!--</div>-->
+<!--<footer>-->
+<!--    <div class="container contact">-->
+<!--        <h3>聯絡方式 CONTACT METHOD</h3>-->
+<!--        <ul>-->
+<!--            <li>Mail：xxxd@hexschool.com</li>-->
+<!--            <li>Phone：0910123456</li>-->
+<!--            <li>Kaohsiung, Taiwan</li>-->
+<!--            <li>作品連結：https://www.behance.net/xxxdddddd</li>-->
+<!--        </ul>-->
+
+<!--        <ul class="contact_platform">-->
+<!--            <li><img-->
+<!--                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/facebook.svg"-->
+<!--                    alt="fb" class="platform"></li>-->
+<!--            <li><img-->
+<!--                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/instagram-alt.svg"-->
+<!--                    alt="instagram" class="platform"></li>-->
+<!--            <li><img-->
+<!--                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/line.svg"-->
+<!--                    alt="line" class="platform"></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</footer>-->
+</body>
+</html>
